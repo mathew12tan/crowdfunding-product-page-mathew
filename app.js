@@ -97,9 +97,6 @@ pledges.forEach((pledge) => {
       }
     });
 
-    //reset input value
-    pledgeSubmit.reset();
-
     // reset pledge
     pledge.classList.remove("toggle-pledge");
     selectPledge.checked = false;
@@ -147,6 +144,9 @@ pledges.forEach((pledge) => {
     selectPledge.checked = false;
     pledgeSubmit.reset();
   });
+
+  //reset input value
+  pledgeSubmit.reset();
 });
 
 // close success modal
