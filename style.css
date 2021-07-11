@@ -196,6 +196,7 @@ main {
   background: hsla(0, 0%, 48%, 0.2);
   color: var(--Dark-gray);
   border-radius: 2em;
+  cursor: pointer;
 }
 
 .bookmark-label:hover {
